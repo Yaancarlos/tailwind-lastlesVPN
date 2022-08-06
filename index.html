@@ -12,8 +12,8 @@
 <body>
     <header class="w-full bg-opacity-90 p-5 relative sm:px-8 sm:py-8  bg-white sticky top-0  lg:px-16 lg:px-20 xl:px-24 flex justify-between h-auto items-center">
         <div class="inline-flex items-center grow">
-            <img src="./public/img/Vector.png" draggable="false" loading=lazy alt="Logo">
-            <h1 class="text-base md:text-lg ml-4 lg:text-xl font-normal md:font-medium ">Lasles<span class="font-medium md:font-bold">VPN</span></h1>
+            <img src="./public/img/Vecttor.png" draggable="false" loading=lazy alt="Logo">
+             <h1 class="text-base md:text-lg ml-4 lg:text-xl font-normal md:font-medium ">Lasles<span class="font-medium md:font-bold">VPN</span></h1>
         </div>
         <div class="flex md:grow justify-between">
             <button class="block md:hidden" onclick="showList()">
@@ -32,8 +32,8 @@
                     <li><a href="javascript:void(0)" class="text-sm md:text-base hover:border-b-2 border-salmon/[.6] text-gray-400 font-normal">Help</a></li>
                 </ul>
                 <li class="inline-flex gap-5 md:gap-3 flex-col sm:flex-row xl:gap-7">
-                    <a href="javasript:void(0)" class="px-5 block grow text-center transition-colors py-2 rounded-full bg-transparent hover:bg-green hover:text-white font-normal lg:font-medium lg:px-7">Sign In</a>
-                    <a href="javasript:void(0)" class="px-5 block grow text-center lg:px-7 py-1.5 transition-colors border-2 border-solid rounded-full border-salmon text-salmon hover:bg-salmon hover:text-white">Sign Up</a>
+                    <a href="javasript:void(0)" class="px-5 block grow text-center transition-colors py-2 rounded-xl md:rounded-full bg-transparent hover:bg-green hover:text-white font-normal lg:font-medium lg:px-7">Sign In</a>
+                    <a href="javasript:void(0)" class="px-5 block grow text-center lg:px-7 py-1.5 transition-colors border-2 border-solid rounded-xl md:rounded-full border-salmon text-salmon hover:bg-salmon hover:text-white">Sign Up</a>
                 </li>
             </ul>
         </div>
@@ -49,75 +49,112 @@
                 <img src="./public/img/viewing-img.png" draggable="false" loading=lazy alt="">
             </figure>
         </section>
-        <section class="max-w-6xl rounded-lg mx-auto mt-14 shadow-lg bg-white grid grid-cols-1 w-full sm:grid-cols-2 md:grid-cols-3">
-            <div class="flex justify-center py-16">
+        <section class="max-w-6xl divide-y md:divide-y-0 px-10 md:px-0 md:divide-x md:py-10 rounded-lg mx-auto mt-14 shadow-lg bg-white grid grid-cols-1 w-full sm:grid-cols-2 md:grid-cols-3">
+            <div class="flex justify-center gap-5 py-7 lg:gap-7">
                 <div class="text-salmon py-3.5 px-4 rounded-full text-3xl bg-salmon/[.1]">
                     <i class="bi bi-person-fill"></i>
                 </div>
+                <div>
+                    <p class="font-medium md:font-bold text-lg sm:text-xl">90+</p>
+                    <span class="font-normal text-sm sm:text-base">Users</span>
+                </div>
             </div>
-            <div class="flex justify-center py-16">
+            <div class="flex justify-center py-7 gap-5 lg:gap-7">
                 <div class="text-salmon py-3.5 px-4 rounded-full text-3xl bg-salmon/[.1]">
                     <i class="bi bi-geo-alt-fill"></i>                
                 </div>
+                <div>
+                    <p class="font-medium md:font-bold text-lg sm:text-xl">30+</p>
+                    <span class="font-normal text-sm sm:text-base">Locations</span>
+                </div>
             </div>
-            <div class="flex justify-center py-16">
+            <div class="flex justify-center py-7 sm:col-start-1 sm:col-end-3 md:col-end-auto md:col-start-auto gap-5 lg:gap-7">
                 <div class="text-salmon py-3.5 px-4 rounded-full text-3xl bg-salmon/[.1]">
                     <i class="bi bi-hdd-stack-fill"></i>
+                </div>
+                <div>
+                    <p class="font-medium md:font-bold text-lg sm:text-xl">50+</p>
+                    <span class="font-normal text-sm sm:text-base">Servers</span>
                 </div>
             </div>
         </section>
-        <section class="max-w-6xl rounded-lg mx-auto mt-14 shadow-lg bg-white grid grid-cols-1 w-full sm:grid-cols-2 md:grid-cols-3">
-            <div class="flex justify-center py-16">
-                <div class="text-salmon py-3.5 px-4 rounded-full text-3xl bg-salmon/[.1]">
-                    <i class="bi bi-person-fill"></i>
-                </div>
+        <section class="flex flex-col my-16 lg:flex-row items-center gap-14 justify-between max-w-7xl mx-auto">
+            <div class="max-w-xl order-1">
+                <h1 class="text-xl font-medium max-w-sm sm:text-2xl md:text-3xl lg:text-4xl" style="line-height: 1.35;">We provide many Features You can Use</h1>
+                <p class="text-gray-400 my-8 text-sm md:text-base font-normal">You can explore the Features that we provide with fun and have thier own functions each feature.</p>
+                <ul>
+                    <li class="font-normal flex items-center gap-2 text-sm"><i class="bi px-1 py-px bg-green rounded-full text-white bi-check-lg"></i> Powerfull online protection</li>
+                    <li class="font-normal my-4 flex items-center gap-2 text-sm"><i class="bi px-1 py-px bg-green rounded-full text-white bi-check-lg"></i> Internet without borders</li>
+                    <li class="font-normal mb-4 flex items-center gap-2 text-sm"><i class="bi px-1 py-px bg-green rounded-full text-white bi-check-lg"></i> Superchanged VPN</li>
+                    <li class="font-normal flex items-center gap-2 text-sm"><i class="bi px-1 py-px bg-green rounded-full text-white bi-check-lg"></i> No specifc tiem limits</li>
+                </ul>
             </div>
-            <div class="flex justify-center py-16">
-                <div class="text-salmon py-3.5 px-4 rounded-full text-3xl bg-salmon/[.1]">
-                    <i class="bi bi-geo-alt-fill"></i>                
-                </div>
-            </div>
-            <div class="flex justify-center py-16">
-                <div class="text-salmon py-3.5 px-4 rounded-full text-3xl bg-salmon/[.1]">
-                    <i class="bi bi-hdd-stack-fill"></i>
-                </div>
-            </div>
-        </section>
-        <section class="max-w-6xl rounded-lg mx-auto mt-14 shadow-lg bg-white grid grid-cols-1 w-full sm:grid-cols-2 md:grid-cols-3">
-            <div class="flex justify-center py-16">
-                <div class="text-salmon py-3.5 px-4 rounded-full text-3xl bg-salmon/[.1]">
-                    <i class="bi bi-person-fill"></i>
-                </div>
-            </div>
-            <div class="flex justify-center py-16">
-                <div class="text-salmon py-3.5 px-4 rounded-full text-3xl bg-salmon/[.1]">
-                    <i class="bi bi-geo-alt-fill"></i>                
-                </div>
-            </div>
-            <div class="flex justify-center py-16">
-                <div class="text-salmon py-3.5 px-4 rounded-full text-3xl bg-salmon/[.1]">
-                    <i class="bi bi-hdd-stack-fill"></i>
-                </div>
-            </div>
-        </section>
-        <section class="max-w-6xl rounded-lg mx-auto mt-14 shadow-lg bg-white grid grid-cols-1 w-full sm:grid-cols-2 md:grid-cols-3">
-            <div class="flex justify-center py-16">
-                <div class="text-salmon py-3.5 px-4 rounded-full text-3xl bg-salmon/[.1]">
-                    <i class="bi bi-person-fill"></i>
-                </div>
-            </div>
-            <div class="flex justify-center py-16">
-                <div class="text-salmon py-3.5 px-4 rounded-full text-3xl bg-salmon/[.1]">
-                    <i class="bi bi-geo-alt-fill"></i>                
-                </div>
-            </div>
-            <div class="flex justify-center py-16">
-                <div class="text-salmon py-3.5 px-4 rounded-full text-3xl bg-salmon/[.1]">
-                    <i class="bi bi-hdd-stack-fill"></i>
-                </div>
-            </div>
+            <figure class="max-w-xl">
+                <img src="./public/img/viewing-img-2.png" draggable="false" loading=lazy alt="">
+            </figure>
         </section>
     </main>
+    <article class="bg-gray-100 w-full p-5 sm:px-8 sm:py-8 md:py-16 lg:px-16 lg:px-20 xl:px-24 h-auto">
+        <h1 class="text-xl sm:text-2xl font-medium md:font-bold text-center md:text-3xl">Choose Your Plan</h1>
+        <p class="text-sm md:text-base font-normal max-w-xl mx-auto text-center mt-5">Let's choose the package that is the best for you and explore if happily and cheerfully</p>
+        <div class="grid mt-16 w-full gap-10 grid-rows-3 md:grid-rows-1 max-w-md md:max-w-6xl mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <div class="card-plan border-2 border-solid border-gray-200 py-12 px-5 lg:px-10 xl:px-16 2xl:px-20 bg-white rounded-lg" >
+                <figure class="max-w-[170px] mx-auto"><img src="./public/img/example-plan-img.png" draggable="false" loading=lazy alt="image Plan"></figure>
+                <h2 class="font-medium md:font-bold text-base md:text-lg lg:text-xl mt-5 text-center">Free plan</h2>
+                <ul class="mt-10">
+                    <li class="flex card-plan-items items-center text-sm md:text-base gap-2 md:gap-3 xl:gap-5"><i class="bi text-lg text-green bi-check-lg"></i>Unlimited Bandwitch</li>
+                    <li class="flex card-plan-items items-center my-4 text-sm md:text-base gap-2 md:gap-3 xl:gap-5"><i class="bi text-lg text-green bi-check-lg"></i>Encrypted connection</li>
+                    <li class="flex card-plan-items items-center mb-4 text-sm md:text-base gap-2 md:gap-3 xl:gap-5"><i class="bi text-lg text-green bi-check-lg"></i>No traffic Logs</li>
+                    <li class="flex card-plan-items items-center text-sm md:text-base gap-2 md:gap-3 xl:gap-5"><i class="bi text-lg text-green bi-check-lg"></i>Works on all Devices</li>
+                </ul>
+                <div class="mt-32">
+                    <h2 class="font-medium md:font-bold text-base md:text-lg lg:text-xl xl:text-2xl text-center">Free</h2>
+                    <button class="text-salmon card-plan-button hover:bg-salmon hover:text-white border-2 border-salmon border-solid rounded-full w-full py-2 mt-5">Select</button>
+                </div>
+            </div>
+            <div class="card-plan border-2 flex flex-col justify-between border-solid border-gray-200 py-12 px-5 lg:px-10 xl:px-16 2xl:px-20 bg-white rounded-lg" >
+                <div>
+                    <figure class="max-w-[170px] mx-auto"><img src="./public/img/example-plan-img.png" draggable="false" loading=lazy alt="image Plan"></figure>
+                    <h2 class="font-medium md:font-bold text-base md:text-lg lg:text-xl mt-5 text-center">Standard Plan</h2>
+                    <ul class="mt-10">
+                        <li class="flex card-plan-items items-center text-sm md:text-base gap-2 md:gap-3 xl:gap-5"><i class="bi text-lg text-green bi-check-lg"></i>Unlimited Bandwitch</li>
+                        <li class="flex card-plan-items items-center my-4 text-sm md:text-base gap-2 md:gap-3 xl:gap-5"><i class="bi text-lg text-green bi-check-lg"></i>Encrypted connection</li>
+                        <li class="flex card-plan-items items-center text-sm md:text-base gap-2 md:gap-3 xl:gap-5"><i class="bi text-lg text-green bi-check-lg"></i>No traffic Logs</li>
+                        <li class="flex card-plan-items items-center my-4 text-sm md:text-base gap-2 md:gap-3 xl:gap-5"><i class="bi text-lg text-green bi-check-lg"></i>Works on all Devices</li>
+                        <li class="flex card-plan-items items-center text-sm md:text-base gap-2 md:gap-3 xl:gap-5"><i class="bi text-lg text-green bi-check-lg"></i>Connect Anywhere</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="font-medium md:font-bold text-base md:text-lg lg:text-xl xl:text-2xl mt-auto text-center">$9 <span class="text-gray-400 font-normal md:font-medium">/ mo</span></h2>
+                    <button class="text-salmon card-plan-button hover:bg-salmon hover:text-white border-2 border-salmon border-solid rounded-full w-full py-2 mt-5">Select</button>
+                </div>
+            </div>
+            <div class="card-plan flex flex-col justify-between border-2 border-solid border-gray-200 py-12 px-5 lg:px-10 xl:px-16 2xl:px-20 bg-white rounded-lg" >
+                <div>
+                    <figure class="max-w-[170px] mx-auto"><img src="./public/img/example-plan-img.png" draggable="false" loading=lazy alt="image Plan"></figure>
+                    <h2 class="font-medium md:font-bold text-base md:text-lg lg:text-xl mt-5 text-center">Premium plan</h2>
+                    <ul class="mt-10">
+                        <li class="flex card-plan-items items-center text-sm md:text-base gap-2 md:gap-3 xl:gap-5"><i class="bi text-lg text-green bi-check-lg"></i>Unlimited Bandwitch</li>
+                        <li class="flex card-plan-items items-center my-4 text-sm md:text-base gap-2 md:gap-3 xl:gap-5"><i class="bi text-lg text-green bi-check-lg"></i>Encrypted connection</li>
+                        <li class="flex card-plan-items items-center text-sm md:text-base gap-2 md:gap-3 xl:gap-5"><i class="bi text-lg text-green bi-check-lg"></i>No traffic Logs</li>
+                        <li class="flex card-plan-items items-center my-4 text-sm md:text-base gap-2 md:gap-3 xl:gap-5"><i class="bi text-lg text-green bi-check-lg"></i>Works on all Devices</li>
+                        <li class="flex card-plan-items items-center mb-4 text-sm md:text-base gap-2 md:gap-3 xl:gap-5"><i class="bi text-lg text-green bi-check-lg"></i>Connect Anywhere</li>
+                        <li class="flex card-plan-items items-center text-sm md:text-base gap-2 md:gap-3 xl:gap-5"><i class="bi text-lg text-green bi-check-lg"></i>Get New Features</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="font-medium md:font-bold text-base md:text-lg lg:text-xl xl:text-2xl mt-auto text-center">$12 <span class="text-gray-400 font-normal md:font-medium">/ mo</span></h2>
+                    <button class="text-salmon card-plan-button hover:bg-salmon hover:text-white border-2 border-salmon border-solid rounded-full w-full py-2 mt-5">Select</button>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-lg mx-auto mt-16">
+            <h1 class="text-xl sm:text-2xl font-medium md:font-bold text-center md:text-3xl">Huge Gobal Network of Fast VPN</h1>
+            <p class="text-sm md:text-base font-normal text-center mt-5">See <span class="md:font-medium"> LaslesVPN</span> everywhere to make it easier for you when you move locations</p>
+        </div>
+        <figure class="max-w-6xl mx-auto w-full mt-16"><img class="w-full" draggable="false" loading=lazy src="./public/img/Vector.png" alt=""></figure>
+    </article>
+
     <script src="./public/js/vpn.js"></script>
 </body>
 </html>

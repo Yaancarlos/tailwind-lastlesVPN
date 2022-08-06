@@ -1,3 +1,24 @@
 .bg-opacity-90 {
     --tw-bg-opacity: 9;
 }
+
+.card-plan:hover {
+    border-color: #F53855;
+}
+
+.card-plan:hover .card-plan-items i {
+    color: #F53855;
+}
+
+.card-plan:hover .card-plan-button {
+    transform: scale(1.05);
+    transition: .1s;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+    -ms-transition: .1s;
+    -o-transition: .1s;
+}
