@@ -22,3 +22,25 @@
     -ms-transition: .1s;
     -o-transition: .1s;
 }
+
+.section-scroll::-webkit-scrollbar{
+    height: 4px;
+}
+
+.section-scroll::-webkit-scrollbar-track {
+    background: rgba(204, 204, 204, 0.556);
+    border-radius: 0 0 999px 999px;
+    -webkit-border-radius: 0 0 999px 999px;
+    -moz-border-radius: 0 0 999px 999px;
+    -ms-border-radius: 0 0 999px 999px;
+    -o-border-radius: 0 0 999px 999px;
+}
+
+.section-scroll::-webkit-scrollbar-thumb {
+    background: #F53855;
+    border-radius: 999px;
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    -ms-border-radius: 999px;
+    -o-border-radius: 999px;
+}
