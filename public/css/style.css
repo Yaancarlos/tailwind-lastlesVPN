@@ -44,3 +44,7 @@
     -ms-border-radius: 999px;
     -o-border-radius: 999px;
 }
+
+.active {
+    background: #F53855;
+}
