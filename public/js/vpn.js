@@ -2,7 +2,7 @@ let showList = () => {
     document.getElementById('list').classList.toggle('hidden')
 }
 
-let slideIndex = 1
+let slideIndex = 0
 
 /* function plusSlides(n) {
     showSlides(slideIndex += n);
