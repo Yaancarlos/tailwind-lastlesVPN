@@ -36,8 +36,12 @@
     -o-border-radius: 0 0 999px 999px;
 }
 
-.section-scroll::-webkit-scrollbar-thumb {
+.section-scroll::-webkit-scrollbar-thumb:hover {
     background: #F53855;
+}
+
+.section-scroll::-webkit-scrollbar-thumb {
+    background: #f5385481;
     border-radius: 999px;
     -webkit-border-radius: 999px;
     -moz-border-radius: 999px;
